@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 8000px;
+    background-color: white;
+}
+
+header{
+    width: 890 px;
+    height: 100px;
+    padding: 20px 70px 10px 20px;
+    margin: 40px 40px 5px 40px;
+    background-color: white;
+
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+}
+
+.helink1,.helink2,.helink3{
+    color: black;
+    text-align: left;
+    position: relative;
+    bottom: 60px;
+    left: 90px;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Arial;
+    font-weight: 900;
+    
+    
+}
+
+
+.helink1:hover{
+    text-decoration: underline;
+}
+.helink2:hover{
+    text-decoration: underline;
+}
+
+.helink3:hover{
+    text-decoration:underline;
+}
+
+
+
+.boton1{
+    border-radius: 40px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 7px 10px 7px 10px;
+    margin: 0px 30px 0px 0px;
+    text-decoration: none;
+    display: inline-block;
+    word-spacing: 4%;
+    font-weight: 900;
+    font-family: arial;
+    position: relative;
+    bottom: 90px;
+    left: 930px;
+
+}
+.boton2{
+    border-radius: 40px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 7px 10px 7px 10px;;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-family: Arial;
+    position: relative;
+    bottom: 90px;
+    left: 930px;
+
+}
+.primers{
+    width: 890 px;
+    height: 400px;
+    padding: 20px 70px 10px 20px;
+    margin: 0px 40px 40px 40px;
+    background-color: rgb(10, 44, 10);
+    color: white;
+    text-align: center;
+    font-family: arial;
+}
+.refs1{
+    color: white;
+}
+
+#ps1, #ps2,#ps3{
+    font-size: 35pt;
+    letter-spacing: 5pt;
+    word-spacing: 4pt;
+    padding: 10px;
+}
+#ps4{
+    font-size: 12pt;
+    letter-spacing: 2pt;
+    word-spacing: 5pt;
+    padding: 25px;
+}
+#ps5{
+    font-size: 12pt;
+    letter-spacing: 2pt;
+    word-spacing: 5pt;
+    padding: 0px;
+}
+.refs1{
+    letter-spacing: 1px;
+}
+
+
+
+.segundas{
+    width: 890 px;
+    height: 400px;
+    padding: 20px 70px 10px 20px;
+    margin: 0px 40px 40px 40px;
+    background-color: rgb(187, 36, 36);
+}
+.alebrije1{
+    float: left;
+    width: 620px;
+    height: 400px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+.art1{
+    text-align: center;
+    color: white;
+}
+
+#part1,#part2{
+    font-size: 35pt;
+    font-family: Arial;
+    letter-spacing: 3px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+#part3,#part4{
+    font-size: 12pt;
+    font-family: Arial;
+    letter-spacing: 2pt;
+    word-spacing: 5pt;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+}
+#botonar1{
+    border-radius: 40px;
+    border: 2px solid white;
+    background-color: rgb(179, 46, 46);
+    color: white;
+    padding: 7px 10px 7px 10px;;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-family: Arial;
+    position: relative;
+    top: 75px;
+
+}
+#botonar1:hover{
+    background-color: black;
+}
+
+.tercers{
+    width: 890 px;
+    height: 400px;
+    padding: 20px 70px 10px 20px;
+    margin: 0px 40px 40px 40px;
+    background-color: rgb(170, 33, 33);
+}
+.alebrije2{
+    float: right;
+    width: 620px;
+    height: 400px;
+    position: relative;
+    bottom: 20px;
+    left: 70px;
+}
+
+.art2{
+    text-align: center;
+    color: white;
+}
+
+
+#parr1,#parr2{
+    font-size: 35pt;
+    font-family: Arial;
+    letter-spacing: 3px;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+}
+
+#parr3{
+    font-size: 12pt;
+    font-family: Arial;
+    letter-spacing: 2pt;
+    word-spacing: 5pt;
+    padding: 10px;
+    position: relative;
+    top: 45px;
+}
+
+#botonart2{
+    border-radius: 40px;
+    border: 2px solid white;
+    background-color: rgb(175, 43, 43);
+    color: white;
+    padding: 7px 10px 7px 10px;;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-family: Arial;
+    position: relative;
+    top: 110px;
+}
+
+#botonart2:hover{
+    background-color: black;
+}
+
+footer{
+    width: 890 px;
+    height: 150px;
+    padding: 0px 70px 10px 20px;
+    margin: 0px 40px 40px 40px;
+    background-color: white;
+
+}
+footer img{
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+    position: relative;
+    top: 20px;
+
+}
+footer p{
+    font-size: 12pt;
+    font-family: Arial;
+    position: relative;
+    top: 20px;
+    letter-spacing: 2px;
+
+}
